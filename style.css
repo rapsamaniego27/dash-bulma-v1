@@ -11,6 +11,17 @@
   height:100vh;
 }
 
+.menu-sublinks{
+  height:0;
+  opacity:0;
+  transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.menu-sublinks--show{
+  opacity:1;
+  height:100px;
+}
+
 .menu-list li a:hover{
   color:#000 !important;
 }
